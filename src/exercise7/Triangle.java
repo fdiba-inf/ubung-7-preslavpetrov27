@@ -26,8 +26,11 @@ public class Triangle {
     public static void printLine(int start, int end) {
       for (; start<=end; start++){
 
-  
-          System.out.print(start+" ");
+        
+          System.out.print(start);
+          if (start!=end){
+            System.out.print(" ");
+          }
           
         }
         System.out.println();
